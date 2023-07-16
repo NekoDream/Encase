@@ -1,0 +1,46 @@
+@font-face {
+    font-family: youzai;
+    src: url("/images/Yozai-Light.woff2") format("woff2"),
+       url("/images/Yozai-Light.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: icona;
+    src: local('icona'), local('icona'), url(/images/Yozai-Light.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+body {
+    font-family: youzai;
+}
+
+article {
+    font-family: youzai;
+}
+
+article p {
+    line-height: 36px;
+}
+
+.am-alert {
+    line-height: 1.6;
+    font-weight: 400;
+    font-size: 1rem;
+    hyphens: auto;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    padding: .625em;
+    background: #0e90d2;
+    border: 1px solid #0c7cb5;
+    border-radius: 0;
+    margin-top: 1em;
+    background-color: #dd514c;
+    border-color: #d83832;
+    color: #fff;
+}
